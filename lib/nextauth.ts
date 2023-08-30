@@ -1,10 +1,10 @@
-// lib/nextauthOptions.ts
+// lib/nextauth.ts
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
 import clientPromise from "./mongodb";
 import { AuthOptions } from "next-auth";
 
-export const nextauthOptions: AuthOptions = {
+export const nextauth: AuthOptions = {
   // Configure one or more authentication providers
   providers: [
     CredentialsProvider({

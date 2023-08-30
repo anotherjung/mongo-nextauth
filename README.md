@@ -6,6 +6,7 @@ code .
 
 pnpm dev
 - start local dev
+
 open http://localhost:3000
 
 
